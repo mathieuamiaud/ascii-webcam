@@ -62,7 +62,7 @@ def toASCII(frame, cols = 120, rows = 35):
 	return result
 
 def grayToChar(gray):
-  CHAR_LIST = ' .:-=+*#%@' # Replace by " .',;:clodxkO0KXNWM" if you want more precision.
+	CHAR_LIST =  ".',;:clodxkO0KXNWM" # Replace by " .',;:clodxkO0KXNWM" if you want more precision.
 	num_chars = len(CHAR_LIST)
 	return CHAR_LIST[
 		min(
